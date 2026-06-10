@@ -6,4 +6,4 @@ build: main.c
 	@$(CC) main.c -o bin/main $(CFLAGS)
 
 run: build
-	@./bin/main
+	@./bin/main ${FILE}
